@@ -1,10 +1,27 @@
-@import 'material-icons/iconfont/material-icons';
+@use 'material-icons/iconfont/material-icons';
 
 html, body{
     padding: 0;
     margin: 0;
+    background-color: #161617;
 }
 
 *{
     box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    cursor: pointer;
+    background-color: transparent;
+}
+
+input, button{
+    outline: none;
+    border: none;
 }
