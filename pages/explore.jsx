@@ -1,5 +1,8 @@
+
 import Layout from '@/app/components/common/Layout'
 
-export default function Home() {
+const Explore = () => {
     return <Layout>Home page</Layout>
 }
+ 
+export default Explore;

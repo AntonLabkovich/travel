@@ -5,7 +5,7 @@
     bottom: 0;
     left: 0;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(15, 15, 16, 0.97);
 
     >nav {
         display: flex;
@@ -20,9 +20,12 @@
                 transition: color .4s ease;
                 font-size: 2rem;
                 color: $gray;
-                &:hover,
-                &.active {
-                    color: $accent;
+            }
+
+            &:hover,
+            &.active {
+                >span {
+                    color: $accent
                 }
             }
         }

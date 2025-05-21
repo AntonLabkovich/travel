@@ -1,5 +1,7 @@
 import Layout from '@/app/components/common/Layout'
 
-export default function Home() {
+const Profile = () => {
     return <Layout>Home page</Layout>
 }
+ 
+export default Profile;

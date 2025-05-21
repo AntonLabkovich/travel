@@ -12,7 +12,7 @@ const navItems = [
   },
   {
     icon: 'place',
-    link: '/place'
+    link: '/place/kyoto'
   },
   {
     icon: 'person_outline',
@@ -24,7 +24,7 @@ const navItems = [
 
 const Footer = () => {
   const { push, pathname } = useRouter();
-  console.log(styles, 'styles')
+  console.log(pathname, 'pathname')
   return (
     <footer className={styles.footer}>
       <nav>
