@@ -1,0 +1,30 @@
+@use '../../../../assets/styles/variables'as *;
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    >nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+
+        >button {
+            margin: 0 2rem;
+
+            >span {
+                transition: color .4s ease;
+                font-size: 2rem;
+                color: $gray;
+                &:hover,
+                &.active {
+                    color: $accent;
+                }
+            }
+        }
+    }
+}
